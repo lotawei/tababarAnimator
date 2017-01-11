@@ -12,6 +12,8 @@
 		EDA401D91E24AD5500E00CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA401D71E24AD5500E00CCE /* Main.storyboard */; };
 		EDA401DB1E24AD5500E00CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA401DA1E24AD5500E00CCE /* Assets.xcassets */; };
 		EDA401DE1E24AD5500E00CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA401DC1E24AD5500E00CCE /* LaunchScreen.storyboard */; };
+		EDA401E61E24AD9000E00CCE /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA401E51E24AD9000E00CCE /* MainTabbarController.swift */; };
+		EDDD54B11E26104500E3DC1F /* LLAnimationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD54B01E26104500E3DC1F /* LLAnimationTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EDA401DA1E24AD5500E00CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA401DD1E24AD5500E00CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA401DF1E24AD5500E00CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA401E51E24AD9000E00CCE /* MainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		EDDD54B01E26104500E3DC1F /* LLAnimationTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAnimationTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		EDA401D21E24AD5500E00CCE /* 自定义tababar */ = {
 			isa = PBXGroup;
 			children = (
+				EDDD54B01E26104500E3DC1F /* LLAnimationTabBarController.swift */,
 				EDA401D31E24AD5500E00CCE /* AppDelegate.swift */,
+				EDA401E51E24AD9000E00CCE /* MainTabbarController.swift */,
 				EDA401D51E24AD5500E00CCE /* ViewController.swift */,
 				EDA401D71E24AD5500E00CCE /* Main.storyboard */,
 				EDA401DA1E24AD5500E00CCE /* Assets.xcassets */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDD54B11E26104500E3DC1F /* LLAnimationTabBarController.swift in Sources */,
 				EDA401D61E24AD5500E00CCE /* ViewController.swift in Sources */,
 				EDA401D41E24AD5500E00CCE /* AppDelegate.swift in Sources */,
+				EDA401E61E24AD9000E00CCE /* MainTabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				EDA401E41E24AD5500E00CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
